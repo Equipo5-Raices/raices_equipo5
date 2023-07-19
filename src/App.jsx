@@ -1,24 +1,18 @@
-
-import './App.css';
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage/HomePage';
-import NavBar from './components/NavBar/NavBar';
-import Footer from './components/Footer/Footer';
-import Product from './pages/Product/Product';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';import { HomePage } from "./pages/HomePage/HomePage";
+import { NavBar } from "./components/NavBar/NavBar";
 
 function App() {
   return (
-    <>
+    <Router>
       <NavBar />
-      <BrowserRouter>
-         <Routes >
-          <Route path='/' element={<HomePage/>}></Route>
-          <Route path='/Product/:id' element={<Product/>}></Route>
-        </Routes>
-      </BrowserRouter>
-      <Footer />
-    </>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        {/* <Route path="/products/:productId" element={<Product />} /> */}
+      </Routes>
+      {/* <Footer /> */}
+    </Router>
   );
 }
+
 export default App;
