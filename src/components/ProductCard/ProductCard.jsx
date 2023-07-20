@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Card, Container, Row, Col } from "react-bootstrap";
-import "./ProductCard.css";
+import styles from "./ProductCard.module.css";
 
 import Aceite from "../../assets/aceite.jpeg";
 
@@ -32,46 +32,39 @@ const ProductCard = () => {
   }
 
   return (
-    <Card
-      key={product._id}
-      className="d-flex justify-content-center align-items-center h-100 card-container"
-    >
+    <Card key={product._id} className={`${styles["card-container"]}`}>
       <Container>
-        <Row>
-          <Col>
-            <Card.Img
-              variant="top"
-              src={Aceite}
-              alt="Aceite de oliva"
-              className="card-img-top"
-            />
-            <Card.Body>
-              <Row>
-                <Col xs={7} className="text-start">
-                  <Card.Title className="card-title">
-                    {product.name}
-                  </Card.Title>
-                </Col>
-                <Col className="text-end info-container">
-                  <Card.Text className="text-secondary m-0 card-text">
-                    {product.price}
-                  </Card.Text>
-                  <Card.Text className="card-text small-text">
-                    <strong>{product.origin}</strong>
-                  </Card.Text>
-                  <Card.Text className="card-text small-text store">
-                    {product.store}
-                  </Card.Text>
-                </Col>
-              </Row>
-              <Col>
-                <Card.Text className="text-start py-2 card-text product-description">
-                  {product.description}
-                </Card.Text>
-              </Col>
-            </Card.Body>
-          </Col>
-        </Row>
+        
+        <Card.Img
+          variant="top"
+          src={Aceite}
+          alt="Aceite de oliva"
+          className={styles["card-img-top"]}
+        />
+
+        <div className={styles["card-title-container"]}>
+          <Card.Title className={styles["card-title"]}>
+            {product.name}
+          </Card.Title>
+        </div>
+
+        <div className={styles["body"]}>
+          <Card.Text
+            className={`${styles["text-start"]} ${styles["py-2"]} ${styles["card-text"]} ${styles["product-description"]}`}
+          >
+            {product.description}
+          </Card.Text>
+
+          <Card.Text className={`${styles["card-text"]}`}>
+            {product.price}€
+          </Card.Text>
+          <Card.Text className={`{styles["small-text"]}`}>
+            <strong>{product.store}</strong>
+          </Card.Text>
+          <Card.Text className={`${styles["small-text"]} `}>
+            {product.origin}
+          </Card.Text>
+        </div>
       </Container>
     </Card>
   );

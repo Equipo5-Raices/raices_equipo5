@@ -9,7 +9,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
-        {/* <Route path="/products/:productId" element={<Product />} /> */}
+        <Route path="/products/:productId" element={<ProductPage />} />
       </Routes>
        <Footer /> 
     </Router>
