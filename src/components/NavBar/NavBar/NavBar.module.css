@@ -1,0 +1,39 @@
+/* .navbar {
+  background-color: #efd80f;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-center {
+  flex: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-right {
+  flex: 11px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar img {
+  max-height: 30px;
+  margin-right: 10px;
+}
+
+.navbar input[type="search"] {
+  width: 100%;
+  padding: 5px;
+}
+
+.notification-bell {
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+} */
