@@ -1,15 +1,22 @@
-# Raíces Marketplace
+# Raíces: de la tierra a tu casa
 
-Está diseñado pensado sobretodo en una web mobile first.
-El nombre está relacionado con la tierra, ya que es para vender productos nacionales de diferentes regiones. 
-La idea de negocio es que el/la empresarix podria añadir su producto para vender y el comprador pueda ver toda la lista de productos y acceder 
-al precio y a la descripción de ese mismo.
+¡Productos de kilómetro 0 que llegan a tu casa!
+
+Raíces es el único intermediario que negocia directamente con los productores locales de cada región, consiguiendo los mejores precios tanto para los campesinos y artesanos como para los clientes. 
+
+Queremos acercar todos esos productos difíciles de conseguir fuera de su tierra para todos aquellos que tuvieron que emigrar. 
+
+No podemos quitar la morriña, ¡pero te ayudamos a sentirte como en casa!
 
 
 ### Diseño del Marketplace
 
+Raíces está diseñada para que tengas acceso a todos los productos desde tu móvil. Creamos una interfaz práctica e intuitiva, capaz de comprar con un solo clic. 
+
 ![Home](https://github.com/Equipo5-Raices/raices_equipo5/assets/118729017/556d7342-ba77-4625-8ea7-e3ed38481801)
+
 ![Vista del producto](https://github.com/Equipo5-Raices/raices_equipo5/assets/118729017/9d3cf887-0f19-4eaf-bf59-8065f9b5b0ec)
+
 ![Vista Favoritos](https://github.com/Equipo5-Raices/raices_equipo5/assets/118729017/9ee91fbe-72db-4179-96e2-555c68dc3bdf)
 
 
@@ -29,17 +36,37 @@ al precio y a la descripción de ese mismo.
 { añadir texto de instalación }
 
 
+## Autores
+
+Teresa Madridejos 
+[@teresamadridejos](https://github.com/teresamadridejos)
+
+Valentina Rios 
+[@valblue21](https://github.com/valblue21)
+
+Jimmy Figueroa
+[@figueroablanco92](https://github.com/figueroablanco92)
+
+Minerva Pedret
+[@Minerva1922](https://github.com/Minerva1922)
+
+Dalia Mercado
+[@seisporseis](https://github.com/seisporseis)
+
+David Quero
+[@keroplas](https://github.com/keroplas)
+
+Juan Antonio
+[@JUANAN2019](https://github.com/JUANAN2019)
+
+Maria Fernandez Santos 
+[@Mariafernandezsantos](https://github.com/Mariafernandezsantos)
+
+Laura Prat Sala
+[@lauuloulu](https://github.com/lauuloulu)
+
+Lorena Morales
+[@Lorenamood](https://github.com/Lorenamood)
 
 
-        Desarrolladoras/res
-        
-        Teresa Madridejos 
-        Valentina Rios 
-        Jimmy Figueroa
-        Minerva Pedret
-        Dalia Mercado
-        David Quero
-        Juan Antonio
-        Maria Fernandez Santos 
-        Laura P
-        Lorena Morales
+       
