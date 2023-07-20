@@ -13,3 +13,17 @@ al precio y a la descripción de ese mismo.
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='bootstrap' src='https://img.shields.io/badge/Bootstrap-100000?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=B85CDA&color=B85CDA'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='trello' src='https://img.shields.io/badge/trello-100000?style=for-the-badge&logo=trello&logoColor=white&labelColor=726AFF&color=726AFF'/></a>
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Figma' src='https://img.shields.io/badge/figma-100000?style=for-the-badge&logo=Figma&logoColor=white&labelColor=FF6ADA&color=000000'/></a>
+
+
+
+
+        Teresa Madridejos 
+        Valentina Rios 
+        Jimmy Figueroa
+        Minerva Pedret
+        Dalia Mercado
+        David Quero
+        Juan Antonio
+        Maria Fernandez Santos 
+        Laura P
+        Lorena Morales
