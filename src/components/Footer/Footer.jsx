@@ -1,10 +1,13 @@
-import styles from "./Footer.css";
-import CopyrightC from "../../assets/c-circle.svg"
+import React from "react";
+import styles from "./Footer.module.css";
+import CopyrightC from "../../assets/copyright-circle.svg";
+
 function Footer() {
-    const { footer, p} = styles;
+  const { footer } = styles;
   return (
-    <div className="footer">
-    <img src={CopyrightC}/><p>Copyright 2023</p>
+    <div className={footer}>
+      <img src={CopyrightC} alt="Copyright Circle" />
+      <p>Copyright 2023</p>
     </div>
   );
 }
