@@ -15,26 +15,24 @@ function HeroImage() {
         src={quesos}
         alt= "viva el queso!" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Quesos de Galicia</h3>
+          <p>¡Prueba las cuatro denominaciones de origen!</p>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
         <img src={verdura} />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Venta de verduras imperfectas</h3>
+          <p>Damos una segunda oportunidad a todo alimento rechazado por las grandes superfícies</p>
         </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
         <img src={huerta} />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>De la tierra a tu casa</h3>
+          <p>Colaboramos con los pequeños agricultores y artesanos para vender sus productos KM0</p>
         </Carousel.Caption>
       </Carousel.Item>
 

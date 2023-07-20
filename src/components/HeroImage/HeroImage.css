@@ -1,0 +1,44 @@
+.responsive-carousel h3 {
+    font-size: 100px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.responsive-carousel p {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 750px){
+    .responsive-carousel h3{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .responsive-carousel h3{
+        font-size: 20px;
+    }
+    .responsive-carousel p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .responsive-carousel h3{
+        font-size: 15px;
+    }
+    .responsive-carousel p {
+        font-size: 10px;
+    }
+}
+
+.responsive-carousel .carousel-caption {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 100%; 
+  }
