@@ -1,8 +1,8 @@
 # Raíces Marketplace
 
 La idea de negocio es un web mobile first. 
-El nombre va con la idea de vender productos nacionales de diferentes regiones. 
-La idea es que el empresario pueda añadir su producto para vender y el comprador pueda ver toda la lista de productos y acceder 
+El nombre está relacionado con la tierra, ya que es para vender productos nacionales de diferentes regiones. 
+El empresario podria añadir su producto para vender y el comprador pueda ver toda la lista de productos y acceder 
 al precio y a la descripción de ese mismo.
 
 
