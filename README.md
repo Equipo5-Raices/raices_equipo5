@@ -43,11 +43,6 @@ Raíces está diseñada para que tengas acceso a todos los productos desde tu m�
 <a href='https://github.com/shivamkapasia0' target="_blank"><img alt='Figma' src='https://img.shields.io/badge/figma-100000?style=for-the-badge&logo=Figma&logoColor=white&labelColor=FF6ADA&color=000000'/></a>
 
 
-### Instalación del proyecto 
-
-{ añadir texto de instalación }
-
-
 ## Autores
 
 Teresa Madridejos 
