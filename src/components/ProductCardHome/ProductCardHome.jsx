@@ -38,9 +38,7 @@ function ProductCardHome() {
                         <h3 className='productName'>{product.name}</h3>
                     
                         <div className='origin-details'>
-                            <div className='store'>
                                 <span>{product.store}</span>
-                            </div>
 
                             {/* <div className='origin'>
                                 <p>Orígen</p>
