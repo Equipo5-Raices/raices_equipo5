@@ -1,6 +1,17 @@
 # Raíces: de la tierra a tu casa
 
-¡Los productos de kilómetro 0 llegan a tu casa!
+<p align="center">
+  <img src="https://i.ibb.co/tQNbNxg/F5-D9-A4-F3-8373-4-FE2-AEE8-BE3-A7-A969-BE2.png" alt="Logo Raíces" width="200">
+</p>
+
+<p align="center">
+  <b>Raíces: de la tierra a tu casa</b>
+</p>
+
+
+  ¡Los productos de kilómetro 0 llegan a tu casa!
+
+
 
 Raíces es el único intermediario que negocia directamente con los productores locales de cada región, consiguiendo los mejores precios tanto para los campesinos y artesanos como para los clientes. 
 
@@ -10,6 +21,7 @@ No podemos quitar la morriña, ¡pero te ayudamos a sentirte como en casa!
 
 
 ### Diseño del Marketplace
+
 
 Raíces está diseñada para que tengas acceso a todos los productos desde tu móvil. Creamos una interfaz práctica e intuitiva, capaz de comprar con un solo clic. 
 
