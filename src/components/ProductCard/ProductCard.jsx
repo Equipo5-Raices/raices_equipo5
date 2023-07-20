@@ -1,69 +1,70 @@
 import React, { useState, useEffect } from "react";
+import { Card, Container, Row, Col } from "react-bootstrap";
+import styles from "./ProductCard.module.css";
+
+import Aceite from "../../assets/aceite.jpeg";
 
 const ProductCard = () => {
-  const [Product, setProduct] = useState(null);
+  const [product, setProduct] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/product")
-      .then((response) => response.json())
-      .then((data) => setProduct(data["hydra:member"][0]))
-      .catch((error) => console.log("error", error));
+    const getProduct = async () => {
+      try {
+        let options = {
+          method: "GET",
+          headers: {
+            "Content-type": "application/json; charset=utf-8",
+          },
+        };
+        const res = await fetch("http://localhost:3000/products/2", options);
+        const data = await res.json();
+        setProduct(data);
+      } catch (err) {
+        console.error("Error fetching product:", err);
+      }
+    };
+
+    getProduct();
   }, []);
 
-  if (!Product) {
+  if (!product) {
     return <div>Loading...</div>;
   }
 
   return (
-    <Card
-      key={product._id}
-      className="d-flex justify-content-center align-items-center h-100"
-    >
+    <Card key={product._id} className={`${styles["card-container"]}`}>
       <Container>
-        <Row>
-          <Col>
-            <Card.Img
-              variant="top"
-              src={product.image_url}
-              style={{ width: "4rem", height: "auto" }}
-            />
-            <Card.Body>
-              <Row>
-                <Col xs={7} className="text-start">
-                  <Card.Title style={{ fontSize: "1.5rem" }}>
-                    {beer.name}
-                  </Card.Title>
-                </Col>
-                <Col className="text-end">
-                  <Card.Text
-                    className="text-secondary m-0"
-                    style={{ fontSize: "1.5rem" }}
-                  >
-                    {product.price}
-                  </Card.Text>
-                  <Card.Text style={{ fontSize: ".7rem" }}>
-                    <strong>{product.origin}</strong>
-                  </Card.Text>
-                </Col>
-              </Row>
-              <Col>
-                <Card.Text
-                  className="text-start py-2"
-                  style={{
-                    fontSize: ".9rem",
-                    lineHeight: "1",
-                    fontWeight: "600",
-                  }}
-                >
-                  {product.description}
-                </Card.Text>
-                <Card.Text className="text-start" style={{ fontSize: ".8rem" }}>
-                  {product.store}
-                </Card.Text>
-              </Col>
-            </Card.Body>
-          </Col>
-        </Row>
+        
+        <Card.Img
+          variant="top"
+          src={Aceite}
+          alt="Aceite de oliva"
+          className={styles["card-img-top"]}
+        />
+
+        <div className={styles["card-title-container"]}>
+          <Card.Title className={styles["card-title"]}>
+            {product.name}
+          </Card.Title>
+        </div>
+
+        <div className={styles["body"]}>
+          <Card.Text
+            className={`${styles["text-start"]} ${styles["py-2"]} ${styles["card-text"]} ${styles["product-description"]}`}
+          >
+            {product.description}
+          </Card.Text>
+
+          <Card.Text className={`${styles["card-text"]}`}>
+            {product.price}€
+          </Card.Text>
+          <Card.Text className={`{styles["small-text"]}`}>
+            <strong>{product.store}</strong>
+          </Card.Text>
+          <Card.Text className={`${styles["small-text"]} `}>
+            {product.origin}
+          </Card.Text>
+        </div>
       </Container>
     </Card>
   );

@@ -1,0 +1,49 @@
+/* Estilos para la imagen */
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+/* Contenedor principal */
+.card-container {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.body {
+  padding: 1rem;
+  border-radius: 15px 15px 0px 0px;
+  background-color: rgb(247, 226, 160);
+}
+
+/* Estilos para los títulos y texto */
+.card-title-container {
+  border-radius: 15px;
+  background-color: #F5F5FA;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  color: #616643;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(149, 175, 116, 0.3);
+  text-align: center;
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+
+.card-text.small-text {
+  font-size: 0.7rem;
+}
+
+.card-text.product-description {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
