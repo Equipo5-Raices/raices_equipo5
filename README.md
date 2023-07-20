@@ -1,6 +1,6 @@
 # Raíces: de la tierra a tu casa
 
-¡Productos de kilómetro 0 que llegan a tu casa!
+¡Los productos de kilómetro 0 llegan a tu casa!
 
 Raíces es el único intermediario que negocia directamente con los productores locales de cada región, consiguiendo los mejores precios tanto para los campesinos y artesanos como para los clientes. 
 
