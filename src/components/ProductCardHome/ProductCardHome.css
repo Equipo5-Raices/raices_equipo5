@@ -14,12 +14,17 @@
    font-family:Arial, Helvetica, sans-serif;
 }
 
+.product-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .productList {
     display: flex;
     flex-direction: column;
-    margin: 5rem;
+    margin: 1rem 2rem;
     background-color: var(--color-white-primary);
-    padding: 2% 5%;
+    padding: 2% 4%;
     max-width: 25rem;
     max-height: 45rem;
     border-radius: 20px;
@@ -149,4 +154,14 @@
 
 .buy.cart:hover {
     color: var(--color-white-primary);
+}
+
+.productPrice {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: var(--color-blue-primary);
+}
+
+@media screen {
+    
 }

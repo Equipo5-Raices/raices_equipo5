@@ -26,7 +26,7 @@ function ProductCardHome() {
     }, []);
 
     return(
-        <div>
+        <div className='product-container'>
             {products.map((product) => (
                 <div className='productList'>
                     <div key={product.id} className='productCard'>
@@ -60,7 +60,7 @@ function ProductCardHome() {
                         <FaShoppingCart className='cart' />
                         </div> 
 
-                        <div className="productPrice">{product.price}</div>               
+                        <div className="productPrice">{product.price}€</div>               
                     </div>
                 </div>
             ))}
