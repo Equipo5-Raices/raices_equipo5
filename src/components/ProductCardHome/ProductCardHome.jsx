@@ -39,7 +39,7 @@ function ProductCardHome(props) {
                    <FaShoppingCart className='cart' />
                 </div> 
 
-                <div className="productPrice">25 €</div>
+                <div className="productPrice">12.5 €</div>
             
                
             </div>
