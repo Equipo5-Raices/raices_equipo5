@@ -1,0 +1,56 @@
+/* Estilos para la imagen */
+.card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Contenedor principal */
+  .card-container {
+    display: flex;
+  }
+  
+  /* Contenedor para la descripción */
+  .description-container {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  /* Contenedor vertical para precio, origen y store */
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  /* Estilos para los títulos y texto */
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card-text {
+    font-size: 1.5rem;
+  }
+  
+  .card-text.small-text {
+    font-size: 0.7rem;
+  }
+  
+  .card-text.product-description {
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+  
+  .card-text.store {
+    font-size: 0.8rem;
+  }
+  
+  /* Estilos para el contenedor principal de la tarjeta */
+  .card-container {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  
