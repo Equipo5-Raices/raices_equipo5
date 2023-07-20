@@ -31,7 +31,7 @@ al precio y a la descripción de ese mismo.
 
 
 
-        Desarrolladores
+        Desarrolladoras/res
         
         Teresa Madridejos 
         Valentina Rios 
