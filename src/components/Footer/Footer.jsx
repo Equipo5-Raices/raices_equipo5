@@ -1,16 +1,10 @@
-/*import Facebook from "../../assets/Facebook";
-import Instagram from "../../assets/Instagram";*/
-import { Link } from "react-router-dom";
-
+import styles from "./Footer.css";
+import CopyrightC from "../../assets/c-circle.svg"
 function Footer() {
+    const { footer, p} = styles;
   return (
-    <div className="footer-container">
-      <div className="footer-links">
-        {/* Corregir la clase CSS en el siguiente enlace */}
-        <Link className="links about">About Us</Link>
-        <Link className="links">Contact</Link>
-      </div>
-      
+    <div className="footer">
+    <img src={CopyrightC}/><p>Copyright 2023</p>
     </div>
   );
 }
