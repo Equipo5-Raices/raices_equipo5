@@ -14,7 +14,7 @@
 .body {
   padding: 1rem;
   border-radius: 15px 15px 0px 0px;
-  background-color: rgb(247, 226, 160);
+  background-color: #f2efd7;
 }
 
 /* Estilos para los títulos y texto */
@@ -44,6 +44,11 @@
 .card-text.product-description {
   font-size: 0.9rem;
   font-weight: 600;
-  line-height: 1.2;
+  line-height: 1.4;
+}
+
+.small-text-caja {
+  display: flex;
+  justify-content: space-between;
 }
 

@@ -58,12 +58,15 @@ const ProductCard = () => {
           <Card.Text className={`${styles["card-text"]}`}>
             {product.price}€
           </Card.Text>
-          <Card.Text className={`{styles["small-text"]}`}>
+          <div className={styles["small-text-caja"]}>
+             <Card.Text className={`{styles["small-text"]}`}>
             <strong>{product.store}</strong>
           </Card.Text>
           <Card.Text className={`${styles["small-text"]} `}>
             {product.origin}
           </Card.Text>
+          </div>
+         
         </div>
       </Container>
     </Card>
