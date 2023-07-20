@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F2F0D7;
+  padding: 1%;
+  
+}
+
+.logo img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10%;
+  margin-top: 20%;
+}
+
+.form-search {
+  display: flex;
+  align-items: center;
+  width: 50%; 
+  background-color: #fff;
+  border: 1px solid #848166;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.form-search svg {
+  margin-right: 5px;
+  color: #848166;
+}
+
+.form-search input[type="text"] {
+  border: none;
+  outline: none;
+  color: #848166;
+ 
+}
+
+.bell a {
+  display: flex;
+  align-items: center;
+  color: #848166;
+  text-decoration: none;
+}
+
+.bell svg {
+  margin-left: 10%;
+}
