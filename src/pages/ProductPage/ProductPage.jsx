@@ -9,4 +9,4 @@ export const ProductPage = () => {
     </div>
   );
 };
-export  {ProductPage};
+export default ProductPage;

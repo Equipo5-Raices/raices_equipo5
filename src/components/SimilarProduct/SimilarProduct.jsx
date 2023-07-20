@@ -13,4 +13,4 @@ function SimilarProduct() {
   );
 }
 
-export {SimilarProduct}
+export default SimilarProduct;
