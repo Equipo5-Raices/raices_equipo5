@@ -1,7 +1,10 @@
 import React from 'react';
+import HeroImage from '../../components/HeroImage/HeroImage';
 
 export const HomePage = () => {
   return (
-    <div></div>
+    <div>
+      <HeroImage/>
+    </div>
   );
 };
