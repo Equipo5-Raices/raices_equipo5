@@ -39,19 +39,18 @@ function ProductCardHome() {
                     
                         <div className='origin-details'>
                             <div className='store'>
-                                <p>Proveniencia</p>
-                                <span className="store">{product.store}</span>
+                                <span>{product.store}</span>
                             </div>
 
-                            <div className='origin'>
+                            {/* <div className='origin'>
                                 <p>Orígen</p>
                                 <span className="origin">{product.origin}</span>
-                            </div>
+                            </div> */}
                         </div>
 
-                        <div className="description">
+                        {/* <div className="description">
                             <p>{product.description}</p>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="details-shop">   
                         <AiFillHeart className='heart'/>
